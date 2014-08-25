@@ -1,0 +1,21 @@
+
+/**
+ * TellApart logo.
+ */
+
+.logo[data-logo="TellApart"] {
+  width: 4.534883720930233em;
+}
+
+.logo[data-logo="TellApart"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="TellApart"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="TellApart"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
